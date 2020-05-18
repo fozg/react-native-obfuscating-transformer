@@ -28,6 +28,7 @@
   },
   "scripts": {
     "build": "rm -rf dist && tsc",
+    "build2": "tsc",
     "precommit": "tsc && lint-staged",
     "test": "jest"
   },
